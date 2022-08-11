@@ -24,17 +24,17 @@ Because of the difference in years, I calculated the two-year returns shown belo
 
 Based on these two year results, ENPH, RUN, and SEDG are the best investments. 
 
-###Limitations
+### Limitations
 
 There are several limitations on this data. First, it only covers two years worth of returns. As seen in the returns themselves, performance can vary drastically year over year and so more years of data would help the analysis, especially more recent years. Second, although the daily volume and return are usual information they are far from the only information to consider before buying a stock. Some other information that would be helpful to have access to include accounting information (gross/net revenues, EBITDA, etc.), any upcoming or recent mergers, and the price-to-earnings ratio of the stock are all factors commonly considered in stock purchases that we do not have access to. 
 
-##Summary
+## Summary
 
-###Advantages and Disadvantages of Refactoring Code
+### Advantages and Disadvantages of Refactoring Code
 
 The choice to refactor code has clear advantages and disadvantages. The biggest advantage of refactoring code is that it helps futureproof the code such that changes down the line do not render the code non-operational. Refactoring can help make the code more readable and easier to change in the future. It can also serve to save time in the future by preventing the need to redo work. Refactoring code can also improve the runtimes and efficiency of the code refactored. 
 
 The biggest disadvantage of refactoring code is that it takes time and that time may not be recovered if the code is not changed or reused. Refactoring also risks breaking the code and being unable to successfully refactor the code
 
-###Advantages and Disadvantages of AllStocksAnalysisRefactored
+### Advantages and Disadvantages of AllStocksAnalysisRefactored
 
