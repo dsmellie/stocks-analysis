@@ -26,7 +26,7 @@ Based on these two year results, ENPH, RUN, and SEDG are the best investments.
 
 ### Limitations
 
-There are several limitations on this data. First, it only covers two years worth of returns. As seen in the returns themselves, performance can vary drastically year over year and so more years of data would help the analysis, especially more recent years. Second, although the daily volume and return are usual information they are far from the only information to consider before buying a stock. Some other information that would be helpful to have access to include accounting information (gross/net revenues, EBITDA, etc.), any upcoming or recent mergers, and the price-to-earnings ratio of the stock are all factors commonly considered in stock purchases that we do not have access to. 
+There are several limitations on this data. First, it only covers two years’ worth of returns. As seen in the returns themselves, performance can vary drastically year over year and so more years of data would help the analysis, especially more recent years. Second, although the daily volume and return are usual information they are far from the only information to consider before buying a stock. Some other information that would be helpful to have access to include accounting information (gross/net revenues, EBITDA, etc.), any upcoming or recent mergers, and the price-to-earnings ratio of the stock are all factors commonly considered in stock purchases that we do not have access to.
 
 ## Summary
 
@@ -38,3 +38,4 @@ The biggest disadvantage of refactoring code is that it takes time and that time
 
 ### Advantages and Disadvantages of AllStocksAnalysisRefactored
 
+The biggest advantage of refactoring AllStocksAnalysis is that it allows for the code to be used to analyze more data than the initial dataset. If we want to analyze additional years’ worth of returns, that data could be added to the workbook and analyzed. Likewise, if additional trades in 2017 or 2018 are added, the refactored code will be able to analyze the data without issue. The biggest disadvantage of the refactored code is that it still cannot analyze additional stocks. If Steve or his parents want to analyze more green stocks (or other stocks in general), the refactored code is still unable to do so. This limits its future applicability. Refactoring the code also cost us time.
